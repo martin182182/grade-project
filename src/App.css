@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.findbtn{
+  background-color: #1976d2;
+}
+
+.findbtn:hover{
+  background-color: #1976d25a;
+}
+
+.checkbox-orange[type="checkbox"].filled-in:checked + label:after{
+  border: 2px solid #ff9800;
+  background-color: #ff9800;
+}
