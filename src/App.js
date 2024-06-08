@@ -139,12 +139,207 @@ questions: [
 }
 ]
 
+
+const cuentos = [{
+  title: 'El Patito Feo',
+  bodyText: `
+    En una granja, nacen varios polluelos de Mamá Pata, pero uno de ellos, el más grande, tarda en salir del cascarón. 
+    Cuando finalmente lo hace, resulta ser diferente a los demás: grande, gris y con un sonido peculiar.
+    Los demás animales de la granja se burlan de él, haciéndolo sentir triste y rechazado. 
+    Por ello, el patito feo decide escapar y buscar un lugar donde pertenecer. Durante su viaje, encuentra refugio temporal 
+    con diferentes personas y animales, pero nunca se siente completamente feliz.
+    Finalmente, tras pasar por diversas experiencias, el patito feo descubre que en realidad es un hermoso cisne. 
+    Al ver su reflejo en el agua, comprende su verdadera identidad y encuentra su lugar junto a una familia de cisnes, 
+    donde es aceptado y querido.
+  `,
+  img: '/images/patito_feo.jpg',
+  questions: [
+    {
+      header: '¿Por qué los demás animales de la granja se burlan del patito feo?',
+      options: [
+        { value: 'Porque era diferente de ellos y con un sonido diferente', correct: true },
+        { value: 'Porque era muy colorido', correct: false },
+        { value: 'Porque era muy bonito', correct: false }
+      ]
+    },
+    {
+      header: '¿Qué decide hacer el patito feo después de ser objeto de burlas?',
+      options: [
+        { value: 'Decide quedarse y vivir ahí', correct: false },
+        { value: 'Decide escapar y buscar un lugar donde pertenecer', correct: true },
+        { value: 'Decide nadar sin rumbo', correct: false }
+      ]
+    },
+    {
+      header: '¿Qué experiencias tiene el patito feo durante su viaje?',
+      options: [
+        { value: 'Encuentra un refugio temporal con diferentes animales y no es feliz', correct: true },
+        { value: 'Se encuentra con un amigo', correct: false },
+        { value: 'Conoce a muchas personas', correct: false }
+      ]
+    },
+    {
+      header: '¿Qué descubre finalmente el patito feo sobre su verdadera identidad?',
+      options: [
+        { value: 'Que si era un patito', correct: false },
+        { value: 'Que era un hermoso cisne', correct: true },
+        { value: 'Que no sabía quién era', correct: false }
+      ]
+    },
+  ]
+},
+{
+  title: 'Hansel y Gretel',
+  bodyText: `
+    Los hermanos que son abandonados en el bosque por sus padres debido a la falta de comida. Hansel, el hermano mayor, 
+    deja un rastro de migas de pan para encontrar el camino de regreso a casa, pero las migas son comidas por los pájaros. 
+    Los hermanos se encuentran con una casa hecha de dulces y son capturados por una bruja que vive allí. Finalmente, 
+    logran escapar y regresar a casa con tesoros que habían encontrado en la casa de la bruja.
+  `,
+  img: '/images/hansel_gretel.jpg',
+  questions: [
+    {
+      header: '¿Por qué fueron abandonados Hansel y Gretel en el bosque?',
+      options: [
+        { value: 'Porque se perdieron', correct: false },
+        { value: 'Porque estaban jugando', correct: false },
+        { value: 'Porque sus padres no tenían suficiente comida', correct: true }
+      ]
+    },
+    {
+      header: '¿Qué dejó Hansel para encontrar el camino de regreso a casa?',
+      options: [
+        { value: 'Piedras', correct: false },
+        { value: 'Migas de pan', correct: true },
+        { value: 'Huellas de zapatos', correct: false }
+      ]
+    },
+    {
+      header: '¿De qué estaba hecha la casa que encontraron Hansel y Gretel en el bosque?',
+      options: [
+        { value: 'De madera', correct: false },
+        { value: 'De piedra', correct: false },
+        { value: 'De dulces', correct: true }
+      ]
+    },
+    {
+      header: '¿Quién vivía en la casa que encontraron Hansel y Gretel?',
+      options: [
+        { value: 'Un ogro', correct: false },
+        { value: 'Un gigante', correct: false },
+        { value: 'Una bruja', correct: true },
+        { value: 'Un hada', correct: false }
+      ]
+    },
+  ]
+}
+]
+
+const leyendas = [{
+  title: 'El Diablo Huma',
+  bodyText: `
+    El Diablo Huma, también conocido como Aya Huma, es un ser que, según la tradición, apareció en el pueblo indígena y mestizo como un rechazo a la imposición católica. 
+    Durante la Fiesta del Sol o Inti Raymi, durante el mes de junio, aparece como parte del conjunto de danzantes en las plazas principales y atrios de las iglesias. 
+    La palabra quichua “huma” significa “cabeza”, por lo que Diablo Huma, quiere decir “Cabeza de diablo”.
+  `,
+  img: '/images/diablo_huma.jpg',
+  questions: [
+    {
+      header: '¿Cómo se conoce también al Diablo Huma?',
+      options: [
+        { value: 'Aya Huma', correct: false },
+        { value: 'Cabeza de diablo', correct: false },
+        { value: 'Ambas son correctas', correct: true },
+        { value: 'Ninguna es correcta', correct: false }
+      ]
+    },
+    {
+      header: '¿Cuándo aparece el Diablo Huma según la tradición?',
+      options: [
+        { value: 'Durante la Fiesta del Sol o Inti Raymi', correct: true },
+        { value: 'Durante la Fiesta de la Luna', correct: false },
+        { value: 'Durante la Fiesta de las Estrellas', correct: false },
+        { value: 'Durante la Fiesta de los Vientos', correct: false }
+      ]
+    },
+    {
+      header: '¿Qué significa la palabra quichua “huma”?',
+      options: [
+        { value: 'Diablo', correct: false },
+        { value: 'Cabeza', correct: true },
+        { value: 'Danza', correct: false },
+        { value: 'Fiesta', correct: false }
+      ]
+    },
+    {
+      header: '¿Por qué apareció el Diablo Huma según la tradición?',
+      options: [
+        { value: 'Como un rechazo a la imposición católica', correct: true },
+        { value: 'Como un rechazo a la imposición indígena', correct: false },
+        { value: 'Como un rechazo a la imposición mestiza', correct: false }
+      ]
+    },
+  ]
+},
+{
+  title: 'La Leyenda de Cantuña',
+  bodyText: `
+    La leyenda de Cantuña es una de las más conocidas en Ecuador. Según la leyenda, Cantuña era un indígena famoso por su habilidad en la construcción. 
+    Los padres de la Iglesia de San Francisco de Quito le encargaron construir el atrio de la iglesia en un plazo de seis meses. Si no terminaba la construcción en ese periodo, no le pagarían ni un centavo. 
+    Cantuña comenzó la labor con mucho entusiasmo, pero era una tarea bastante difícil. Al ver que el plazo se acercaba a su fin, le invade la preocupación y desesperación. 
+    Su gran sufrimiento llega a oídos del Diablo, quien decide presentarse ante él para ofrecerle su ayuda construyendo el atrio antes del amanecer, solo que la única condición sería que a cambio le entregaría su alma como recompensa. 
+    Cantuña acepta, pero le impone la regla de que deberá concluir las obras lo más rápido posible. Lucifer accede y con la ayuda de sus diablillos avanza rápidamente, colocando cada piedra en su lugar. 
+    Fueron tan acelerados los trabajos que el atrio estuvo listo a la media noche. Entonces el Diablo se prepara para recibir su paga; ahí es cuando Cantuña lo detiene y le dice que había incumplido con el trato porque no colocó hasta la última piedra de la construcción.
+  `,
+  img: '/images/cantuna.jpg',
+  questions: [
+    {
+      header: '¿Quién era Cantuña?',
+      options: [
+        { value: 'Un sacerdote', correct: false },
+        { value: 'Un indígena famoso por su habilidad en la construcción', correct: true },
+        { value: 'Un diablo', correct: false },
+        { value: 'Un rey', correct: false }
+      ]
+    },
+    {
+      header: '¿Qué le encargaron construir a Cantuña?',
+      options: [
+        { value: 'Una casa', correct: false },
+        { value: 'Una escuela', correct: false },
+        { value: 'El atrio de la Iglesia de San Francisco de Quito', correct: true },
+        { value: 'Un puente', correct: false }
+      ]
+    },
+    {
+      header: '¿Qué ofreció el Diablo a Cantuña a cambio de su ayuda?',
+      options: [
+        { value: 'Oro', correct: false },
+        { value: 'Fama', correct: false },
+        { value: 'Su alma', correct: true },
+        { value: 'Poder', correct: false }
+      ]
+    },
+    {
+      header: '¿Cómo logró Cantuña engañar al Diablo?',
+      options: [
+        { value: 'Escondió una de las piedras de la construcción', correct: true },
+        { value: 'No aceptó su ayuda', correct: false },
+        { value: 'Le dio una piedra falsa', correct: false }
+      ]
+    },
+  ]
+}
+]
+
+
+
 class App extends Component {
   state = {
     lecturas: [
-      { name: 'Cuentos', img: '/images/book.jpg', contenido: [{ title: 'Cuento1', bodyText: 'Contenido del Cuento1', img: '/images/book.jpg' }] },
+      { name: 'Cuentos', img: '/images/book.jpg', contenido: cuentos },
       { name: 'Fabulas', img: '/images/book.jpg', contenido: fabulas },
-      { name: 'Lecturas tradicionales', img: '/images/book.jpg', contenido: [{ title: 'LectTrad1', bodyText: 'Contenido de LectTrad1', img: '/images/book.jpg' }] }
+      { name: 'Leyendas', img: '/images/book.jpg', contenido: leyendas }
     ],
     categoriaSeleccionada: null,
     lecturaSeleccionada: null,
